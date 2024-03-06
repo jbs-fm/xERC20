@@ -1,15 +1,28 @@
 {
-    "name": "Test",
-    "symbol": "TST",
+    "name": "OWE Token",
+    "symbol": "OWE",
     "chainDetails": [
         {
             "rpcEnvName": "ETHEREUM_GOERLI_RPC",
-            "erc20": "0x0000000000000000000000000000000000000001",
-            "governor": "0x0000000000000000000000000000000000000002",
+            "erc20": "0x796C7ee77E9272BfFab13CcBE889d04dDa57d927",
+            "governor": "0x309bC1Ec1983A5632CC99E8A1c541846ae640fce",
             "isNativeGasToken": false,
             "bridgeDetails": [
                 {
-                    "bridge": "0x0000000000000000000000000000000000000003",
+                    "bridge": "0xFCa08024A6D4bCc87275b1E4A1E22B71fAD7f649",
+                    "burnLimit": 1000e18,
+                    "mintLimit": 1000e18
+                }
+            ]
+        },
+        {
+            "rpcEnvName": "POLYGON_MUMBAI_RPC",
+            "erc20": "0x0000000000000000000000000000000000000000",
+            "governor": "0x309bC1Ec1983A5632CC99E8A1c541846ae640fce",
+            "isNativeGasToken": false,
+            "bridgeDetails": [
+                {
+                    "bridge": "0x2334937846Ab2A3FCE747b32587e1A1A2f6EEC5a",
                     "burnLimit": 1000e18,
                     "mintLimit": 1000e18
                 }
